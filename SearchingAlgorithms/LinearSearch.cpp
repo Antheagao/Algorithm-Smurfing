@@ -45,6 +45,8 @@ int main()
     key = getRand();
 
     // Perform linear search
+    cout << endl << "Performing linear search on value: " << key << endl
+         << endl;
     found = linearSearch(array, SIZE, key);
 
     // Print if the value was found or not
@@ -88,8 +90,6 @@ void printArray(int *array, int size)
 // Linear search to find value within array
 int linearSearch(int *array, int size, int key)
 {
-    cout << endl << "Performing linear search on value: " << key << endl << endl;
-
     for (int index = 0; index < size; index++)
     {
         printArray(array, size);
