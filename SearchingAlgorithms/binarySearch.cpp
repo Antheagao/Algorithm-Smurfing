@@ -3,7 +3,7 @@
     06/13/22
 
     This program demonstrates binary search using an
-    array with random values and a randomly key
+    array with random values and a random key
 */
 
 #include <iostream>
