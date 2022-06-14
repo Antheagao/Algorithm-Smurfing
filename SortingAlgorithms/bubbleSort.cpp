@@ -1,3 +1,10 @@
+/*
+    Anthony Mendez
+    06/14/22
+
+    This program demonstrates bubbleSort an a random array
+    by printing the progress of swaps
+*/
 #include <iostream>
 #include <ctime>
 #include <stdlib.h>
