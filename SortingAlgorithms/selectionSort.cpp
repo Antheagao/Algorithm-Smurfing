@@ -1,6 +1,7 @@
 /*
     Anthony Mendez
     06/14/22
+
     This program demonstrates selectionSort on a random array
     by printing the progress of swaps
 */
