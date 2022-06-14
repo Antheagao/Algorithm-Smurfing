@@ -69,9 +69,9 @@ void bubbleSort(int *array, int size)
     int temp;
 
     printArray(array, size);
-    for (int hold = size - 1; hold > 0; hold--)
+    for (int max = size - 1; max > 0; max--)
     {
-        for (int index = 0; index < hold; index++)
+        for (int index = 0; index < max; index++)
         {
             if (array[index] > array[index + 1])
             {
